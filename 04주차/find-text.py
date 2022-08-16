@@ -5,4 +5,3 @@ def count_word(text, word):
     findWord = text.count(word)
     print(findWord)
 count_word(text, word)
-text.close()
