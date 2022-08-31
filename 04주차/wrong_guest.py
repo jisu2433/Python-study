@@ -1,9 +1,9 @@
 
-guest_book = """±è°©,123456789
-ÀÌÀ»,010-1234-5678
-¹Úº´,010-5678-111
-ÃÖÁ¤,111-1111-1111
-Á¤¹«,010-3333-3333"""
+guest_book = """ê¹€ê°‘,123456789
+ì´ì„,010-1234-5678
+ë°•ë³‘,010-5678-111
+ìµœì •,111-1111-1111
+ì •ë¬´,010-3333-3333"""
 
 
 def wrong_guest_book(guest_book): 
@@ -15,6 +15,6 @@ def wrong_guest_book(guest_book):
         name , phone_number = guest.split(',') 
         if phone_number.startswith('010-') and len(phone_number) == 13 and phone_number[8] == '-':
             continue 
-        print(f"Àß¸ø ¾´ »ç¶÷:{name}\nÀß¸ø ¾´ ¹øÈ£:{phone_number}\n") 
+        print(f"ì˜ëª» ì“´ ì‚¬ëŒ:{name}\nì˜ëª» ì“´ ë²ˆí˜¸:{phone_number}\n") 
     return
 wrong_guest_book(guest_book)
